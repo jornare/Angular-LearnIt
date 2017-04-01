@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="./" />
+  <script src="../lib/angular2.bundle.js"></script>
+  <script src="app.component.js"></script>
+  <script src="app.module.js"></script>
+</head>
+
+<body>
+  <my-app>Loading...</my-app>
+  <script>
+      (function(app) {
+        document.addEventListener('DOMContentLoaded', function() {
+          ng.platformBrowserDynamic
+            .platformBrowserDynamic()
+            .bootstrapModule(app.AppModule);
+        });
+      })(window.app || (window.app = {}));
+    </script>
+</body>
+
+</html>

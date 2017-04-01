@@ -1,0 +1,16 @@
+{
+  "version": "2.0.3",
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "listFiles": true,
+    "outDir": "dist",
+    "experimentalDecorators": true
+  }
+}
